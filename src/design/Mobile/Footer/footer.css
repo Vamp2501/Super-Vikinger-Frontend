@@ -1,0 +1,37 @@
+.footerHeader {
+  background-color: #7750f8;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.iconHolderFooter {
+  width: max-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 300px;
+}
+.iconHolderFooter .IconButton {
+  width: 40px;
+  height: 40px;
+}
+.dropdownButtonFooter {
+  background: transparent;
+  border: none;
+}
+.tabIcons:hover {
+  color: white !important;
+}
+.dropdownButtonFooter .IconButton:hover {
+  color: white;
+}
+.logoutBtn {
+  color: white;
+  background-color: #7750f8;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 14px;
+  width: 100%;
+}

@@ -1,0 +1,182 @@
+@media (min-width: 850px) {
+  .profileDetailsHeader p {
+    margin: 0px;
+  }
+  .profileImageHolder {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .profilePreview {
+    background-color: #1d2333;
+    height: 150px;
+    border-radius: 18px;
+  }
+  .preview {
+    text-align: center;
+    width: 300px;
+    height: 70px;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+  }
+  .changeAvatar {
+    text-align: left;
+    width: 300px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 18px;
+    background-color: #1d2333;
+  }
+
+  .changeCover {
+    text-align: left;
+    width: 300px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 18px;
+    background-color: #1d2333;
+  }
+  .aboutProfile {
+    background-color: #1d2333;
+    padding: 25px;
+    margin-top: 30px;
+    border-radius: 18px;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+  }
+  .rowOne,
+  .rowTwo,
+  .rowThree,
+  .rowFour {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: -webkit-fill-available;
+    margin-top: 12px;
+    background-color: transparent;
+    border: none;
+  }
+  .powerDefence {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* align-items: center; */
+    height: 143.906px;
+    /* margin-top: 10px; */
+  }
+  .rowOne .MuiTextField-root {
+    width: 450px;
+  }
+  .rowTwo .MuiTextField-root {
+    width: 450px;
+  }
+  .rowThree .MuiTextField-root {
+    width: 450px;
+  }
+}
+@media (max-width: 850px) {
+  .profileDetailsHeader p {
+    margin: 0px;
+  }
+  .profileImageHolder {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .profilePreview {
+    background-color: #1d2333;
+    height: 150px;
+    border-radius: 18px;
+  }
+  .preview {
+    text-align: center;
+    width: 300px;
+    height: 70px;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+  }
+  .changeAvatar {
+    text-align: left;
+    width: 300px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 18px;
+    background-color: #1d2333;
+  }
+
+  .changeCover {
+    text-align: left;
+    width: 300px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 18px;
+    background-color: #1d2333;
+  }
+  .aboutProfile {
+    background-color: #1d2333;
+    padding: 25px;
+    margin-top: 30px;
+    border-radius: 18px;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+  }
+  .rowOne,
+  .rowTwo,
+  .rowThree,
+  .rowFour {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: -webkit-fill-available;
+    margin-top: 12px;
+    background-color: transparent;
+    border: none;
+  }
+  .powerDefence {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* align-items: center; */
+    height: 143.906px;
+    /* margin-top: 10px; */
+  }
+  .rowOne .MuiTextField-root {
+    width: 45%;
+  }
+  .rowTwo .MuiTextField-root {
+    width: 150px;
+  }
+  .rowThree .MuiTextField-root {
+    width: 45%;
+  }
+}

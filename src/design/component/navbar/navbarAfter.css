@@ -1,0 +1,412 @@
+@media (min-width: 850px) {
+  .navbarAfter {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    z-index: 10000;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    background-color: #7750f8;
+    color: white;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+  }
+  .navbarLogo Image {
+    width: 80px;
+    height: 80px;
+  }
+  .widgetsIcon:hover {
+    color: white !important;
+  }
+  .navbarMenuItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .navbarMenuItem ul {
+    cursor: pointer;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 250px;
+    align-items: center;
+  }
+  .navbarMenuItem ul li {
+    font-family: "RajdhaniBold";
+    font-size: 13px;
+  }
+  .navbarMenuItem ul li:hover {
+    color: #40d04f;
+  }
+  .dropdownButtonNavbar {
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 13px;
+    font-family: "RajdhaniBold";
+  }
+  #composition-menu {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    background-color: #7750f8;
+    color: white;
+    border-radius: 8px;
+    font-size: 10px !important;
+  }
+  #composition-menu1 {
+    background-color: #1d2333;
+    color: white;
+    border-radius: 8px;
+    padding: 18px 20px;
+  }
+  .logoutBtn {
+    color: white;
+    background-color: #7750f8;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 14px;
+    width: 100%;
+  }
+  #searchBar {
+    background-color: #5538b5;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2px;
+    width: 400px;
+    height: 40px;
+    border: 1px solid #5538b5;
+    border-radius: 8px;
+  }
+
+  input[type="search"] {
+    border: none;
+    background: transparent;
+    margin: 0;
+    padding: 7px 8px;
+    font-size: 14px;
+    color: inherit;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    width: -webkit-fill-available;
+  }
+
+  input[type="search"]::placeholder {
+    color: #7364de;
+  }
+
+  button[type="submit"] {
+    text-indent: -999px;
+    overflow: hidden;
+    width: 40px;
+    padding: 0;
+    margin: 0;
+    border: 1px solid transparent;
+    border-radius: inherit;
+    background: transparent
+      url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E")
+      no-repeat center;
+    cursor: pointer;
+    opacity: 0.7;
+  }
+
+  button[type="submit"]:hover {
+    opacity: 1;
+  }
+
+  button[type="submit"]:focus,
+  input[type="search"]:focus {
+    outline: none;
+    border: none;
+    font-family: RajdhaniBold;
+    color: white;
+  }
+  .progrssBarHolder {
+    width: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+  }
+  .MuiLinearProgress-root {
+    border-radius: 5px !important;
+  }
+  .MuiLinearProgress-bar {
+    background-color: #40d04f !important;
+    border-radius: 5px !important;
+  }
+  .ProgressBarText {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .tabBarHolder {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+  }
+
+  .tabIcons:hover {
+    color: white !important;
+  }
+}
+
+@media (max-width: 850px) {
+  .navbarAfter {
+    display: flex;
+    background-color: #7750f8;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .navbarMenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .navbarMenuItem {
+    display: none;
+  }
+  .progrssBarHolder {
+    display: none;
+  }
+  .dividerNavabarAfter {
+    display: none;
+  }
+  .tabBarHolder {
+    display: none !important;
+  }
+  .setting {
+    display: none;
+  }
+  #searchBar {
+    height: 72px;
+    width: fit-content;
+  }
+  .navbarSearchBar {
+    width: 100% !important;
+  }
+  .navbarSearchBar form {
+    width: 100% !important;
+    display: flex;
+    flex-direction: row;
+  }
+
+  input[type="search"] {
+    border: none;
+    background: transparent;
+    margin: 0;
+    padding: 7px 8px;
+    font-size: 14px;
+    color: inherit;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    width: -webkit-fill-available;
+  }
+
+  input[type="search"]::placeholder {
+    color: #7364de;
+  }
+
+  button[type="submit"] {
+    text-indent: -999px;
+    overflow: hidden;
+    width: 40px;
+    padding: 0;
+    margin: 0;
+    border: 1px solid transparent;
+    border-radius: inherit;
+    background: transparent
+      url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E")
+      no-repeat center;
+    cursor: pointer;
+    opacity: 0.7;
+  }
+
+  button[type="submit"]:hover {
+    opacity: 1;
+  }
+
+  button[type="submit"]:focus,
+  input[type="search"]:focus {
+    outline: none;
+    border: none;
+    font-family: RajdhaniBold;
+    color: white;
+  }
+}
+@media (max-width: 1200px) and (min-width: 850px) {
+  .navbarAfter {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    z-index: 10000;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    background-color: #7750f8;
+    color: white;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+  }
+  .navbarLogo Image {
+    width: 80px;
+    height: 80px;
+  }
+  .widgetsIcon:hover {
+    color: white !important;
+  }
+  .navbarMenuItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .navbarMenuItem ul {
+    cursor: pointer;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    padding-left: 0px !important;
+    width: 200px !important;
+    justify-content: space-between;
+
+    align-items: center;
+  }
+  .navbarMenuItem ul li {
+    font-family: "RajdhaniBold";
+    font-size: 13px;
+  }
+  .navbarMenuItem ul li:hover {
+    color: #40d04f;
+  }
+  .dropdownButtonNavbar {
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 13px;
+    font-family: "RajdhaniBold";
+  }
+  #composition-menu {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    background-color: #7750f8;
+    color: white;
+    border-radius: 8px;
+    font-size: 10px !important;
+  }
+  #composition-menu1 {
+    background-color: #1d2333;
+    color: white;
+    border-radius: 8px;
+    padding: 18px 20px;
+  }
+  .logoutBtn {
+    color: white;
+    background-color: #7750f8;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 14px;
+    width: 100%;
+  }
+  #searchBar {
+    background-color: #5538b5;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2px;
+    width: 400px;
+    height: 40px;
+    border: 1px solid #5538b5;
+    border-radius: 8px;
+  }
+
+  input[type="search"] {
+    border: none;
+    background: transparent;
+    margin: 0;
+    padding: 7px 8px;
+    font-size: 14px;
+    color: inherit;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    width: -webkit-fill-available;
+  }
+
+  input[type="search"]::placeholder {
+    color: #7364de;
+  }
+
+  button[type="submit"] {
+    text-indent: -999px;
+    overflow: hidden;
+    width: 40px;
+    padding: 0;
+    margin: 0;
+    border: 1px solid transparent;
+    border-radius: inherit;
+    background: transparent
+      url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E")
+      no-repeat center;
+    cursor: pointer;
+    opacity: 0.7;
+  }
+
+  button[type="submit"]:hover {
+    opacity: 1;
+  }
+
+  button[type="submit"]:focus,
+  input[type="search"]:focus {
+    outline: none;
+    border: none;
+    font-family: RajdhaniBold;
+    color: white;
+  }
+  .progrssBarHolder {
+    width: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+  }
+  .MuiLinearProgress-root {
+    border-radius: 5px !important;
+  }
+  .MuiLinearProgress-bar {
+    background-color: #40d04f !important;
+    border-radius: 5px !important;
+  }
+  .ProgressBarText {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .tabBarHolder {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+  }
+  .setting {
+    margin-right: 0px !important;
+  }
+  .tabIcons:hover {
+    color: white !important;
+  }
+}

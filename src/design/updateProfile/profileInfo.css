@@ -1,0 +1,93 @@
+.pageContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.AboutProfile {
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  text-align: left;
+  justify-content: space-around;
+}
+.profileHeader {
+  display: flex;
+  padding-left: 10px;
+  font-family: "RajdhaniBold";
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.profileactionsHolder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  padding: 0px 0px 0px 40px;
+}
+.profileactionsHolder p {
+  padding: 20px 0px 0px 0px;
+  text-align: left;
+  font-size: 12px;
+  margin: 0px;
+  color: #fff;
+  cursor: pointer;
+}
+.profileactionsHolder p:hover {
+  color: #4ff461;
+  padding-left: 10px;
+  transition: 10ms;
+}
+
+.saveBtn {
+  background: #4ff461;
+  border: none;
+  width: 200px;
+  cursor: pointer;
+  padding: 12px 16px;
+  color: #fff;
+  border-radius: 8px;
+  margin: 10px auto;
+}
+.discardBtn {
+  background-color: transparent;
+  border-radius: 8px;
+  border: 1px solid #616a82;
+  color: #616a82;
+  cursor: pointer;
+  padding: 12px 16px;
+  width: 200px;
+}
+.btnholder {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.sideNav {
+  width: 300px;
+  background-color: #1d2333;
+  margin: 10px;
+  /* border: 1px solid white; */
+  border-radius: 8px;
+  overflow: hidden scroll;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  scrollbar-width: 10px;
+  border-radius: 20px;
+  -ms-overflow-style: none;
+  padding-bottom: 20px;
+  justify-content: space-around;
+}
+.sideNav::-webkit-scrollbar {
+  display: none !important;
+}
+.contentShower {
+  margin-right: 30px;
+  /* overflow: hidden scroll; */
+  width: -webkit-fill-available;
+  margin-top: 10px;
+  border-radius: 20px;
+  padding-left: 10px;
+  color: #fff;
+}

@@ -1,0 +1,139 @@
+@media (min-width: 680px) {
+  .rightPanel {
+    background-color: #1d2333;
+    width: fit-content;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-top: 80px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    padding-bottom: 6px;
+    height: 100vh;
+    overflow: hidden scroll !important;
+  }
+  .icons {
+    width: 35px;
+    height: 35px;
+  }
+
+  #imageProfile01 {
+    background-image: url("../../../../public/Image/Avatar/03.jpg");
+    background-size: contain;
+  }
+  #imageProfile02 {
+    background-image: url("../../../../public/Image/Avatar/17.jpg");
+    background-size: contain;
+  }
+  #imageProfile03 {
+    background-image: url("../../../../public/Image/Avatar/14.jpg");
+    background-size: contain;
+  }
+  #imageProfile04 {
+    background-image: url("../../../../public/Image/Avatar/08.jpg");
+    background-size: contain;
+  }
+  #imageProfile05 {
+    background-image: url("../../../../public/Image/Avatar/07.jpg");
+    background-size: contain;
+  }
+  #imageProfile06 {
+    background-image: url("../../../../public/Image/Avatar/20.jpg");
+    background-size: contain;
+  }
+  #imageProfile07 {
+    background-image: url("../../../../public/Image/Avatar/05.jpg");
+    background-size: contain;
+  }
+  #imageProfile08 {
+    background-image: url("../../../../public/Image/Avatar/04.jpg");
+    background-size: contain;
+  }
+
+  #imageProfile09 {
+    background-image: url("../../../../public/Image/Avatar/09.jpg");
+    background-size: contain;
+  }
+  #imageProfile10 {
+    background-image: url("../../../../public/Image/Avatar/12.jpg");
+    background-size: contain;
+  }
+  #imageProfile11 {
+    background-image: url("../../../../public/Image/Avatar/10.jpg");
+    background-size: contain;
+  }
+  .hex {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    width: 39px;
+    height: 39px; /* width * 0.866 */
+    background: #40d04f;
+    box-sizing: border-box;
+    -webkit-clip-path: polygon(
+      0% 50%,
+      25% 0%,
+      75% 0%,
+      100% 50%,
+      75% 100%,
+      25% 100%
+    );
+    -moz-clip-path: polygon(
+      0% 50%,
+      25% 0%,
+      75% 0%,
+      100% 50%,
+      75% 100%,
+      25% 100%
+    );
+  }
+  .hex-background {
+    position: absolute;
+    background-color: orange; /*color of the main-background*/
+    top: 2px; /* equal to border thickness */
+    left: 2px; /* equal to border thickness */
+    width: 35px; /* container height - (border thickness * 2) */
+    height: 35px; /* container height - (border thickness * 2) */
+    -webkit-clip-path: polygon(
+      0% 50%,
+      25% 0%,
+      75% 0%,
+      100% 50%,
+      75% 100%,
+      25% 100%
+    );
+    -moz-clip-path: polygon(
+      0% 50%,
+      25% 0%,
+      75% 0%,
+      100% 50%,
+      75% 100%,
+      25% 100%
+    );
+  }
+  .hex Image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    -webkit-clip-path: polygon(
+      0% 50%,
+      25% 0%,
+      75% 0%,
+      100% 50%,
+      75% 100%,
+      25% 100%
+    );
+    -moz-clip-path: polygon(
+      0% 50%,
+      25% 0%,
+      75% 0%,
+      100% 50%,
+      75% 100%,
+      25% 100%
+    );
+  }
+}

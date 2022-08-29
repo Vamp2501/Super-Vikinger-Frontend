@@ -1,0 +1,131 @@
+.signUpPage {
+  /* margin-top: 100px; */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: max-content;
+  background-image: url("../../../../public/Image/signupForm/landing-background.jpg");
+  background-size: cover;
+  padding: 20px;
+}
+
+.siteTextHolder {
+  text-align: center;
+  font-family: RajdhaniBold;
+  font-size: 45px;
+  font-weight: 1200;
+  line-height: 50px;
+  color: white;
+  margin-bottom: 20px;
+}
+.toggleButtonHolder {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.MuiToggleButton-root {
+  width: 150px;
+  border: 1px solid black !important;
+  /* border-radius: 8px !important; */
+  font-family: RajdhaniBold !important;
+}
+
+.toggleButtonHolder .Mui-selected {
+  background-color: black !important;
+  color: white !important;
+}
+.displayShow {
+  display: block;
+}
+.displayNone {
+  display: none;
+}
+.registrationForm {
+  background-color: #1d2333;
+  width: 450px;
+  text-align: center;
+  color: white;
+  border-radius: 8px;
+  margin: 0px auto;
+  height: 625px;
+}
+.loginForm {
+  background-color: #1d2333;
+  width: 450px;
+  text-align: center;
+  color: white;
+  border-radius: 8px;
+  margin: 0px auto;
+  height: 625px;
+}
+.formHolder {
+  background-color: transparent;
+  border: none;
+  width: 370px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 400px;
+  align-items: center;
+  margin: 0px auto;
+}
+.loginFooter {
+  width: 350px;
+  margin: 0px auto;
+}
+.separator {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: white;
+  font-family: RajdhaniBold;
+}
+
+.separator::before,
+.separator::after {
+  content: "";
+  flex: 1;
+  border-bottom: 1px solid darkGray;
+}
+
+.separator:not(:empty)::before {
+  margin-right: 10px;
+}
+
+.separator:not(:empty)::after {
+  margin-left: 10px;
+}
+.logosFooter {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  margin: 20px auto 50px;
+}
+/* input:-webkit-autofill {
+  font-family: RajdhaniBold !important;
+  background-color: transparent !important;
+  color: #fff !important;
+} */
+input:-webkit-autofill {
+  -webkit-text-fill-color: black !important;
+}
+
+input:-webkit-autofill:focus {
+  -webkit-text-fill-color: black !important;
+}
+@media (min-width: 481px) and (max-width: 800px) {
+  .signUpPage {
+    height: 100vh;
+  }
+}
+@media (max-width: 480px) {
+  .signUpPage {
+    background-size: auto 100%;
+    width: fit-content;
+  }
+}
+@media (min-width: 800px) {
+  .signUpPage {
+    height: 100%;
+  }
+}

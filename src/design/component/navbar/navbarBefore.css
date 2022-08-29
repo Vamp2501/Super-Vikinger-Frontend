@@ -1,0 +1,226 @@
+@media (min-width: 800px) {
+  .navbarBefore {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    z-index: 10000;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    background-color: #7750f8;
+    color: white;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+  }
+  .registerBtn Button {
+    background-color: #161b28;
+    color: white;
+    padding: 12px 16px;
+    border: none;
+    border-radius: 8px;
+  }
+
+  form {
+    background-color: #5538b5;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2px;
+    width: 70ch;
+    border: 1px solid #5538b5;
+    border-radius: 5px;
+  }
+
+  input[type="search"] {
+    border: none;
+    background: transparent;
+    margin: 0;
+    padding: 7px 8px;
+    font-size: 14px;
+    color: inherit;
+    border: 1px solid transparent;
+    border-radius: inherit;
+    width: -webkit-fill-available;
+  }
+
+  input[type="search"]::placeholder {
+    color: #7364de;
+  }
+
+  button[type="submit"] {
+    text-indent: -999px;
+    overflow: hidden;
+    width: 40px;
+    padding: 0;
+    margin: 0;
+    border: 1px solid transparent;
+    border-radius: inherit;
+    background: transparent
+      url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E")
+      no-repeat center;
+    cursor: pointer;
+    opacity: 0.7;
+  }
+
+  button[type="submit"]:hover {
+    opacity: 1;
+  }
+
+  button[type="submit"]:focus,
+  input[type="search"]:focus {
+    outline: none;
+    border: none;
+    color: white;
+  }
+
+  .emailField {
+    border: 1px solid #5538b5;
+    background-color: #5538b5;
+    border-radius: 8px;
+  }
+  input[type="email"]::placeholder {
+    color: #7364de;
+    font-size: 12px;
+  }
+  .emailField:focus {
+    border: none;
+    color: white;
+    outline: none;
+    background-color: #5538b5;
+  }
+
+  .pwdField {
+    border: 1px solid #5538b5;
+    background-color: #5538b5;
+    border-radius: 8px;
+  }
+  input[type="password"]::placeholder {
+    color: #7364de;
+    font-size: 12px;
+  }
+  .pwdField:focus {
+    border: none;
+    color: white;
+    outline: none;
+    background-color: #5538b5;
+  }
+
+  .navbarSignInSuccess Button {
+    display: flex;
+    background-color: #40d04f;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: none;
+    border: none;
+    outline: none;
+  }
+  .navbarSignInSuccess Button:hover {
+    display: flex;
+    background-color: #5aec69;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: none;
+    border: none;
+    outline: none;
+  }
+  .navbarSignInError Button {
+    display: flex;
+    background-color: #f9515c;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: none;
+    border: none;
+    outline: none;
+  }
+  .navbarSignInError Button:hover {
+    display: flex;
+    background-color: #f0747d;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: none;
+    border: none;
+    outline: none;
+  }
+  .hamburgerIcon:hover {
+    color: white !important;
+    cursor: pointer;
+  }
+}
+
+@media (max-width: 900px) {
+  .navbarBefore {
+    display: flex;
+    background-color: #7364de;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .navbarEmail {
+    display: none;
+  }
+  .navbarPwd {
+    display: none;
+  }
+  .navbarSignIn {
+    display: none;
+  }
+  form {
+    background-color: #5538b5;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2px;
+    width: -webkit-fill-available;
+    border: 1px solid #5538b5;
+    border-radius: 5px;
+  }
+
+  input[type="search"] {
+    border: none;
+    background: transparent;
+    margin: 0;
+    padding: 7px 8px;
+    font-size: 14px;
+    color: inherit;
+    border: 1px solid transparent;
+    border-radius: inherit;
+    width: -webkit-fill-available;
+  }
+
+  input[type="search"]::placeholder {
+    color: #7364de;
+  }
+
+  button[type="submit"] {
+    text-indent: -999px;
+    overflow: hidden;
+    width: 40px;
+    padding: 0;
+    margin: 0;
+    border: 1px solid transparent;
+    border-radius: inherit;
+    background: transparent
+      url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E")
+      no-repeat center;
+    cursor: pointer;
+    opacity: 0.7;
+  }
+
+  button[type="submit"]:hover {
+    opacity: 1;
+  }
+
+  button[type="submit"]:focus,
+  input[type="search"]:focus {
+    outline: none;
+    border: none;
+    color: white;
+  }
+}

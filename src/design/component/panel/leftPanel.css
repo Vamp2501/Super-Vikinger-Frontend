@@ -1,0 +1,173 @@
+@media (min-width: 680px) {
+  .leftPanel {
+    background-color: #1d2333;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    margin-top: 80px;
+    padding-bottom: 6px;
+    height: -webkit-fill-available;
+  }
+  .icons {
+    width: 35px;
+    height: 35px;
+  }
+  #imageProfile {
+    background-image: url("../../../../public/Image/Avatar/17.jpg");
+    background-size: contain;
+    width: 30px;
+    height: 32px;
+  }
+  .hex {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    width: 39px;
+    height: 39px; /* width * 0.866 */
+    background: #40d04f;
+    box-sizing: border-box;
+    -webkit-clip-path: polygon(
+      0% 50%,
+      25% 0%,
+      75% 0%,
+      100% 50%,
+      75% 100%,
+      25% 100%
+    );
+    -moz-clip-path: polygon(
+      0% 50%,
+      25% 0%,
+      75% 0%,
+      100% 50%,
+      75% 100%,
+      25% 100%
+    );
+  }
+  .hex-background {
+    position: absolute;
+    background-color: orange; /*color of the main-background*/
+    top: 2px; /* equal to border thickness */
+    left: 2px; /* equal to border thickness */
+    width: 35px; /* container height - (border thickness * 2) */
+    height: 35px; /* container height - (border thickness * 2) */
+    -webkit-clip-path: polygon(
+      0% 50%,
+      25% 0%,
+      75% 0%,
+      100% 50%,
+      75% 100%,
+      25% 100%
+    );
+    -moz-clip-path: polygon(
+      0% 50%,
+      25% 0%,
+      75% 0%,
+      100% 50%,
+      75% 100%,
+      25% 100%
+    );
+  }
+  .hex Image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    -webkit-clip-path: polygon(
+      0% 50%,
+      25% 0%,
+      75% 0%,
+      100% 50%,
+      75% 100%,
+      25% 100%
+    );
+    -moz-clip-path: polygon(
+      0% 50%,
+      25% 0%,
+      75% 0%,
+      100% 50%,
+      75% 100%,
+      25% 100%
+    );
+  }
+  .iconHolder:hover {
+    color: #40d04f;
+  }
+  .icon2:hover,
+  .icon3:hover,
+  .icon4:hover,
+  .icon5:hover,
+  .icon6:hover,
+  .icon7:hover,
+  .icon8:hover,
+  .icon9:hover {
+    background-color: #253653;
+    /* border: 1 px solid #a1a3aa; */
+    border-radius: 8px;
+    border-width: 30px;
+    z-index: 1;
+  }
+  .iconHolder {
+    /* position: relative; */
+    /* display: inline-block; */
+    /* margin-top: 20px; */
+    padding: 15px;
+  }
+  .iconHolder[title]:hover::after {
+    content: attr(title);
+    position: absolute;
+    top: 35%;
+    margin-left: 10px;
+    z-index: 1;
+    background-color: #253653;
+    border-radius: 8px;
+    padding: 2px;
+    color: white;
+    width: max-content;
+    font-size: 12px;
+    left: 100%;
+  }
+}
+@media (max-width: 680px) {
+  .leftPanelHolder {
+    display: none;
+    /* background-color: #40d04f; */
+  }
+  .paperHolder {
+    display: none;
+  }
+
+  .icon1 {
+    display: none;
+  }
+  .icon2 {
+    display: none;
+  }
+  .icon3 {
+    display: none;
+  }
+  .icon4 {
+    display: none;
+  }
+  .icon5 {
+    display: none;
+  }
+  .icon6 {
+    display: none;
+  }
+  .icon7 {
+    display: none;
+  }
+
+  .icon8 {
+    display: none;
+  }
+  .icon9 {
+    display: none;
+  }
+}

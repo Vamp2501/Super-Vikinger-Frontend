@@ -1,0 +1,116 @@
+.dropdown-navigation-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.profileInfoHolder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  text-align: left;
+}
+.profileInfoHolder p {
+  color: #616a82;
+  margin: 0px;
+  font-size: 10px;
+  padding: 0px 10px;
+  font-family: RajdhaniBold;
+  text-align: left;
+}
+.dropdown-navigation-category {
+  margin: 20px 0 10px;
+  font-size: 12px;
+  font-family: RajdhaniBold;
+  color: #616a82;
+  text-transform: uppercase;
+}
+.dropdown-navigation-link {
+  display: block;
+  padding: 6px 0;
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: "RajdhaniBold";
+  transition: padding 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+.dropdown-navigation-link:hover {
+  padding-left: 4px;
+  color: #40d04f;
+}
+.dropdown-navigation-link:focus {
+  float: right;
+  color: black;
+}
+._3c0HdLfzeVGL-3dzZoYhZ0 {
+  width: 100% !important;
+  height: 100% !important;
+  /* transform: rotate(30deg); */
+}
+._3c0HdLfzeVGL-3dzZoYhZ0 image {
+  object-fit: cover;
+  width: 86%;
+  height: 93%;
+  x: 61;
+  y: 26;
+  clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
+  -webkit-clip-path: polygon(0% 50%, 25% 0%, 73% 0%, 97% 50%, 76% 94%, 24% 94%);
+}
+._1tq45zolpZHPesL_Up-IDP {
+  color: #f1f1f1;
+  font-family: "RajdhaniBold";
+  font-size: 10rem !important;
+  background-color: #40d04f !important;
+}
+
+/* .headerIcon .hex {
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  width: 39px;
+  height: 39px;
+  background: black;
+  box-sizing: border-box;
+  -webkit-clip-path: polygon(
+    0% 50%,
+    25% 0%,
+    75% 0%,
+    100% 50%,
+    75% 100%,
+    25% 100%
+  );
+  -moz-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
+}
+.headerIcon .hex .hex-background {
+  transform: rotate(90);
+  position: absolute;
+  background-color: orange;
+  top: 2px;
+  left: 2px;
+  width: 35px;
+  height: 35px;
+  -webkit-clip-path: polygon(
+    0% 50%,
+    25% 0%,
+    75% 0%,
+    100% 50%,
+    75% 100%,
+    25% 100%
+  );
+  -moz-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
+}
+.headerIcon .hex Image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  -webkit-clip-path: polygon(
+    0% 50%,
+    25% 0%,
+    75% 0%,
+    100% 50%,
+    75% 100%,
+    25% 100%
+  );
+  -moz-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
+} */

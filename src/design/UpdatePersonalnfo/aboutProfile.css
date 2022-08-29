@@ -1,0 +1,43 @@
+.accountPersonalInfoHolder {
+  background-color: #1d2333;
+  border-radius: 18px;
+  padding: 25px;
+}
+form .fieldHolder {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: inherit;
+}
+.fieldHolder .rowOne,
+.rowTwo,
+.rowThree {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.securityInfo {
+  margin-top: 15px;
+  background-color: #1d2333;
+  padding: 25px;
+  border-radius: 18px;
+}
+.securityFieldHolder {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: inherit;
+}
+.securityFieldHolder .rowOne,
+.rowTwo,
+.rowThree,
+.rowFour {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}

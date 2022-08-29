@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: "RajdhaniBold";
+  src: url("../public/Font/RajDhani/Rajdhani-Bold.ttf");
+}
+@font-face {
+  font-family: "RajdhaniLight";
+  src: url("../public/Font/RajDhani/Rajdhani-Light.ttf");
+}
+
+@font-face {
+  font-family: "RajdhaniMedium";
+  src: url("../public/Font/RajDhani/Rajdhani-Medium.ttf");
+}
+@font-face {
+  font-family: "Rajdhani";
+  src: url("../public/Font/RajDhani/Rajdhani-Regular.ttf");
+}
+@font-face {
+  font-family: "RajdhaniSemiBold";
+  src: url("../public/Font/RajDhani/Rajdhani-SemiBold.ttf");
+}
